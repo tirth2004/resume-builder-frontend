@@ -27,6 +27,7 @@ import { useEducations } from '@/stores/education';
 import { useExperiences } from '@/stores/experience';
 import { useVoluteeringStore } from '@/stores/volunteering';
 import { Menu, MenuItem } from '@mui/material';
+import { AuthButton } from './components/AuthButton';
 
 const TOTAL_TEMPLATES_AVAILABLE = Object.keys(AVAILABLE_TEMPLATES).length;
 
@@ -143,6 +144,7 @@ const NavBarLayout = () => {
         </NavBarMenu>
         <div className="hidden md:flex">
           <NavBarActions>
+            <AuthButton />
             <StyledButton variant="text" onClick={exportResumeData}>
               Export
             </StyledButton>
@@ -199,15 +201,11 @@ const NavBarLayout = () => {
           }}
         >
           Import
-          <input
-            type="file"
-            hidden
-            ref={fileInputRef}
-            accept="application/json"
-            onChange={handleFileChange}
-          />
         </MenuItem>
         <PrintResume isMenuButton />
+        <MenuItem>
+          <AuthButton />
+        </MenuItem>
       </Menu>
       <Toast
         open={openToast}
