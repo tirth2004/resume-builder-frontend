@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "Jane Smith",
+    "label": "Frontend Developer",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg",
+    "email": "jane@example.com",
+    "phone": "+91 9876543211",
+    "url": "https://janesmith.com",
+    "summary": "Creative frontend developer with expertise in modern web technologies.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "CA"
+    },
+    "relExp": "3 years",
+    "totalExp": "5 Years",
+    "objective": "To create beautiful and performant web applications.",
+    "profiles": [
+      {
+        "network": "github",
+        "username": "janesmith",
+        "url": "https://github.com/janesmith"
+      }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "Web Solutions",
+      "position": "Frontend Lead",
+      "url": "",
+      "startDate": "2019-01",
+      "isWorkingHere": true,
+      "endDate": null,
+      "summary": "Led frontend development team",
+      "highlights": ["Implemented responsive design", "Improved user experience"],
+      "years": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Stanford",
+      "url": "https://stanford.edu",
+      "studyType": "Master",
+      "area": "Computer Science",
+      "startDate": "2017",
+      "isStudyingHere": false,
+      "endDate": "2019",
+      "score": "3.9 GPA",
+      "courses": []
+    }
+  ],
+  "skills": {
+    "languages": [
+      { "name": "TypeScript", "level": 95 },
+      { "name": "HTML", "level": 90 }
+    ],
+    "frameworks": [
+      { "name": "Vue.js", "level": 90 },
+      { "name": "Angular", "level": 85 }
+    ],
+    "technologies": [
+      { "name": "Webpack", "level": 3 },
+      { "name": "Sass", "level": 3 }
+    ],
+    "libraries": [],
+    "databases": [],
+    "practices": [],
+    "tools": []
+  },
+  "activities": {
+    "involvements": "<ul><li>Organized frontend workshops</li><li>Contributed to open source projects</li></ul>",
+    "achievements": "<ul><li>Best Frontend Developer 2023</li><li>UI/UX Excellence Award 2022</li></ul>"
+  },
+  "volunteer": [
+    {
+      "id": "1",
+      "organization": "Code for Good",
+      "position": "Developer",
+      "url": "https://codeforgood.org",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Developed websites for non-profits",
+      "highlights": ["Created 5+ websites for charities"],
+      "isVolunteeringNow": false
+    }
+  ],
+  "awards": [
+    {
+      "id": "1",
+      "title": "Best Frontend Developer",
+      "date": "2023-12-01",
+      "awarder": "Web Solutions",
+      "summary": "Awarded for exceptional UI/UX work"
+    }
+  ]
+}

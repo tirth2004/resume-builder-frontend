@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "label": "Full Stack Developer",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "john@example.com",
+    "phone": "+91 9876543210",
+    "url": "https://johndoe.com",
+    "summary": "Experienced full stack developer with a passion for creating efficient and scalable applications.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "NY"
+    },
+    "relExp": "4 years",
+    "totalExp": "6 Years",
+    "objective": "To leverage my full stack development skills in creating innovative solutions.",
+    "profiles": [
+      {
+        "network": "github",
+        "username": "johndoe",
+        "url": "https://github.com/johndoe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "Tech Corp",
+      "position": "Senior Developer",
+      "url": "",
+      "startDate": "2020-01",
+      "isWorkingHere": true,
+      "endDate": null,
+      "summary": "Led development of multiple web applications",
+      "highlights": ["Implemented CI/CD pipeline", "Reduced load time by 50%"],
+      "years": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "MIT",
+      "url": "https://mit.edu",
+      "studyType": "Bachelor",
+      "area": "Computer Science",
+      "startDate": "2016",
+      "isStudyingHere": false,
+      "endDate": "2020",
+      "score": "3.8 GPA",
+      "courses": []
+    }
+  ],
+  "skills": {
+    "languages": [
+      { "name": "JavaScript", "level": 90 },
+      { "name": "Python", "level": 85 }
+    ],
+    "frameworks": [
+      { "name": "React", "level": 90 },
+      { "name": "Node.js", "level": 85 }
+    ],
+    "technologies": [
+      { "name": "AWS", "level": 3 },
+      { "name": "Docker", "level": 3 }
+    ],
+    "libraries": [],
+    "databases": [],
+    "practices": [],
+    "tools": []
+  },
+  "activities": {
+    "involvements": "<ul><li>Led multiple hackathons</li><li>Organized tech meetups</li></ul>",
+    "achievements": "<ul><li>Best Developer Award 2022</li><li>Innovation Award 2021</li></ul>"
+  },
+  "volunteer": [
+    {
+      "id": "1",
+      "organization": "Tech Community",
+      "position": "Mentor",
+      "url": "https://techcommunity.org",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Mentored junior developers",
+      "highlights": ["Helped 10+ developers improve their skills"],
+      "isVolunteeringNow": false
+    }
+  ],
+  "awards": [
+    {
+      "id": "1",
+      "title": "Best Developer Award",
+      "date": "2022-12-01",
+      "awarder": "Tech Corp",
+      "summary": "Awarded for outstanding contributions"
+    }
+  ]
+}
